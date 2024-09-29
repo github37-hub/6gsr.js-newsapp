@@ -2,7 +2,7 @@
 {
   "homepage": "https://github37-hub.github.io/6gsr.js-newsapp",
   "name": "6gsr.js-newsapp",
-  "private": false,
+  "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
