@@ -1,14 +1,14 @@
 
 {
-  "homepage": "https://github37-hub.github.io/6gsr.js-newsapp",
+  "homepage": "http://{github37-hub}.github.io/{6gsr.js-newsapp}",
   "name": "6gsr.js-newsapp",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "predeploy" : "npm run build",
+    "deploy" : "gh-pages -d build",
     "dev": "vite",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
